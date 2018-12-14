@@ -1,0 +1,12 @@
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\bin\Debug\DesktopTest.rxtmg
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\bin\Debug\DesktopTest.exe.config
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\bin\Debug\DesktopTest.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\bin\Debug\DesktopTest.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\obj\x86\Debug\DesktopTest.csprojResolveAssemblyReference.cache
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\obj\x86\Debug\DesktopTest.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\obj\x86\Debug\DesktopTest.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\bin\Debug\DateSet.xlsx
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\bin\Debug\SmokeTest.rxtst
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\bin\Debug\DesktopTest.rxsqc
+D:\Work\Freelance\Trainings\Renorex\Demos\DesktopTest\DesktopTest\bin\Debug\FunctionTest.rxtst

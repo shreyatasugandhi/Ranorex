@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="RemoteExecutionTest"
+      id="429d3bbd-bde4-4e0e-a843-2fc5ed6923cc"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="RemoteExecutionTest"
+      id="429d3bbd-bde4-4e0e-a843-2fc5ed6923cc"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ee2dace7-e486-408d-89de-4a97d8a78c6d"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Fail
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Fail"
+	namespace="RemoteExecutionTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="TestFailed"
+		optional="False"
+		reportlevel="Failure;120"
+		searchpropertyid="6d38b8c3-b4b5-465a-8609-b909a9bd5429">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="6f6db93f-fdc4-45c4-aaec-03b564f5d94a"
+	name="RemoteExecutionTestRepository"
+	relativepath="RemoteExecutionTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="RemoteExecutionTestRepository"
+		namespace="RemoteExecutionTest">
+		</codegen>
+		<rootfolder
+		id="5b196b1a-b898-4272-ab36-9eb5366af2ef"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Fail.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

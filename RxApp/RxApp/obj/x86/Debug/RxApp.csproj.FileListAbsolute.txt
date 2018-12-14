@@ -1,0 +1,17 @@
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\RxApp.rxtmg
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\RxApp.rxtst
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\RxApp.exe.config
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\RxApp.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\RxApp.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\obj\x86\Debug\RxApp.csprojResolveAssemblyReference.cache
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\obj\x86\Debug\RxApp.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\obj\x86\Debug\RxApp.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\RepositoryImages\RxAppRepository789abdd5.rximgres
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\TestSuite1.rxtst
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\RxApp.rxsqc
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\Atlassian.Jira.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\Newtonsoft.Json.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\RestSharp.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\Newtonsoft.Json.xml
+D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\bin\Debug\RestSharp.xml

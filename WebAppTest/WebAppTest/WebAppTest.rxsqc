@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "WebAppTest",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "DeskTop",
+    "RunConfig": "Default"
+  }
+]

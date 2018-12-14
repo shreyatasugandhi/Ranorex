@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6f0cd406-0e08-46a3-bb64-e2b430361f1d"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		CloseBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="WebAppTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="9566cbdb-915d-48e6-8448-84ef36cd2bdc">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bdabeae9-6a45-4d8e-83e5-52b6e67ea97a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="2285f2ec-ed07-4374-a79a-43d3b7cb9ea2"
+	name="WebAppTestRepository"
+	relativepath="WebAppTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="WebAppTestRepository"
+		namespace="WebAppTest">
+		</codegen>
+		<rootfolder
+		id="47e7d8aa-0a18-472d-9bc4-2ef259037955"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

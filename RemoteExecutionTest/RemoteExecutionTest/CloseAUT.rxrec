@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0f5e0328-3bfa-4e35-96ae-f0237ca623d7"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		CloseAUT
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="RemoteExecutionTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="54dc894f-5cde-47be-a817-8c906d434889">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e553e5fc-0696-4bdc-ab9d-cc69d38a5190"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='RxDemoApp']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="6f6db93f-fdc4-45c4-aaec-03b564f5d94a"
+	name="RemoteExecutionTestRepository"
+	relativepath="RemoteExecutionTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="RemoteExecutionTestRepository"
+		namespace="RemoteExecutionTest">
+		</codegen>
+		<rootfolder
+		id="5b196b1a-b898-4272-ab36-9eb5366af2ef"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

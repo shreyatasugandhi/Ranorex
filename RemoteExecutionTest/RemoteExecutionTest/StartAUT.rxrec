@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="df2901b9-9a5e-45b0-b6c3-e7b9e30b520e"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		StartAUT
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="RemoteExecutionTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				D:\Work\Freelance\Trainings\Renorex\RxDemoApp\RxDemoApp.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="6f6db93f-fdc4-45c4-aaec-03b564f5d94a"
+	name="RemoteExecutionTestRepository"
+	relativepath="RemoteExecutionTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="RemoteExecutionTestRepository"
+		namespace="RemoteExecutionTest">
+		</codegen>
+		<rootfolder
+		id="5b196b1a-b898-4272-ab36-9eb5366af2ef"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

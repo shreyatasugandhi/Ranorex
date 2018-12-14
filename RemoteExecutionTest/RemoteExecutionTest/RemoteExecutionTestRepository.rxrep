@@ -1,0 +1,83 @@
+﻿<repository
+id="6f6db93f-fdc4-45c4-aaec-03b564f5d94a"
+name="RemoteExecutionTestRepository"
+rxversion="8.3">
+	<codegen
+	classname="RemoteExecutionTestRepository"
+	namespace="RemoteExecutionTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="5b196b1a-b898-4272-ab36-9eb5366af2ef"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e553e5fc-0696-4bdc-ab9d-cc69d38a5190"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="41753ba0-2405-48a7-8ea2-2f0a1a3135da"
+			isrooted="True"
+			name="RxTabIntroduction"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="7f696b45-ce9c-4ff5-8df3-8cc138dc6725"
+				name="EnterYourName"
+				refimgid="8cc521d5-7451-4560-9c29-07726f3b80a2"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/text[@controlname='txtUserName']/text[@accessiblename='Enter your name']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="5c08a536-96ab-4c77-8d71-f46db9e3470e"
+				name="BtnSubmitUserName"
+				refimgid="0fb6d2ce-7ab2-48c4-a0ed-7c024e3df3d5"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="e902db71-2729-4464-9e6d-d3552c8ec2f9"
+				name="LblWelcomeMessage"
+				refimgid="4a7e757d-8a7b-42b8-ba90-07ba0b9e3390"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']
+				</item>
+				<basepath>
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@processname='RxDemoApp']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

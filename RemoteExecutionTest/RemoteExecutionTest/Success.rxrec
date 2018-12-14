@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8a56889c-5f13-4111-8e60-f3e2356430b8"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Success
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Success"
+	namespace="RemoteExecutionTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Success;110"
+		searchpropertyid="0e1752c7-4d05-4dfe-9f39-e6cc4411aebe">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="6f6db93f-fdc4-45c4-aaec-03b564f5d94a"
+	name="RemoteExecutionTestRepository"
+	relativepath="RemoteExecutionTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="RemoteExecutionTestRepository"
+		namespace="RemoteExecutionTest">
+		</codegen>
+		<rootfolder
+		id="5b196b1a-b898-4272-ab36-9eb5366af2ef"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Success.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

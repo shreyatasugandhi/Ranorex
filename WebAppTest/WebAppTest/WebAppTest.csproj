@@ -1,0 +1,351 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{F1835714-EF65-4654-B445-AB8B99299C0D}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WebAppTest</RootNamespace>
+    <AssemblyName>WebAppTest</AssemblyName>
+    <RanorexVersion>8.3</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>5a1378e9-4d26-478f-9399-eb77487a5dac</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>8e75f03a-3bfe-4558-b019-82d939312f79</id>
+    </Compile>
+    <Compile Include="BookAFlight\FlightConfirmationPage.cs">
+      <DependentUpon>FlightConfirmationPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dada801d-961b-4d46-a6a9-48dbf7495ffd</id>
+      <BoundTo>d4f3d908-b9b3-4a31-8826-ba88947714d3</BoundTo>
+    </Compile>
+    <Compile Include="BookAFlight\FlightConfirmationPage.UserCode.cs">
+      <DependentUpon>FlightConfirmationPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d81f4e8c-e573-42a0-b7e4-d6bff40d1879</id>
+      <BoundTo>d4f3d908-b9b3-4a31-8826-ba88947714d3</BoundTo>
+    </Compile>
+    <Compile Include="BookAFlight\FlightFinderPage.cs">
+      <DependentUpon>FlightFinderPage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bc9340d2-da8f-4d47-8fa3-eb9b98356c01</id>
+      <BoundTo>39b19a4a-369f-4b3e-b3e8-43858ac8910e</BoundTo>
+    </Compile>
+    <Compile Include="BookAFlight\FlightFinderPage.UserCode.cs">
+      <DependentUpon>FlightFinderPage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5869763c-cf5c-4ceb-8063-245536e0e87b</id>
+      <BoundTo>39b19a4a-369f-4b3e-b3e8-43858ac8910e</BoundTo>
+    </Compile>
+    <Compile Include="BookAFlight\FlightLink.cs">
+      <DependentUpon>FlightLink.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>924d5815-b419-462a-a0d8-608c7b5e69fa</id>
+      <BoundTo>e0624752-f322-4f92-81cf-fbde1daa4930</BoundTo>
+    </Compile>
+    <Compile Include="BookAFlight\FlightLink.UserCode.cs">
+      <DependentUpon>FlightLink.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a5969e6b-9367-4fef-9e88-692cfff9ac77</id>
+      <BoundTo>e0624752-f322-4f92-81cf-fbde1daa4930</BoundTo>
+    </Compile>
+    <Compile Include="BookAFlight\PurchaseAFlight.cs">
+      <DependentUpon>PurchaseAFlight.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1f3fa01c-9888-4ac8-9097-224f50d4e971</id>
+      <BoundTo>eab5f3c3-d439-4542-9877-527b5fd3fff4</BoundTo>
+    </Compile>
+    <Compile Include="BookAFlight\PurchaseAFlight.UserCode.cs">
+      <DependentUpon>PurchaseAFlight.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5f0ff79f-ff4b-479c-ba9c-d5c8c6b34b73</id>
+      <BoundTo>eab5f3c3-d439-4542-9877-527b5fd3fff4</BoundTo>
+    </Compile>
+    <Compile Include="BookAFlight\SelectAFlight.cs">
+      <DependentUpon>SelectAFlight.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>121d9742-0672-4c85-b929-5649005781a4</id>
+      <BoundTo>1e728f88-2405-4681-8762-bd1f353ab68f</BoundTo>
+    </Compile>
+    <Compile Include="BookAFlight\SelectAFlight.UserCode.cs">
+      <DependentUpon>SelectAFlight.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>40e8d3ca-edfa-40ce-9383-60b8f0244304</id>
+      <BoundTo>1e728f88-2405-4681-8762-bd1f353ab68f</BoundTo>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>b05c7c81-a510-4e70-b5df-9dd466c1cc4e</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ac77a467-0a4e-4449-b52a-e683e905b61a</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>b05c7c81-a510-4e70-b5df-9dd466c1cc4e</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b610811c-7e35-4e1e-a578-00fc467a949e</id>
+    </Compile>
+    <Compile Include="DDTest.cs">
+      <BoundTo>33f50e78-b679-4ac4-8c3b-7eb2ec4ff358</BoundTo>
+      <DependentUpon>DDTest.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>88190d25-ab1a-4ce4-83da-eb7215ab5fc4</id>
+    </Compile>
+    <Compile Include="DDTest.UserCode.cs">
+      <BoundTo>33f50e78-b679-4ac4-8c3b-7eb2ec4ff358</BoundTo>
+      <DependentUpon>DDTest.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7a1d0dab-6057-43aa-9245-27ab4982d653</id>
+    </Compile>
+    <Compile Include="LogIn.cs">
+      <BoundTo>c6d81684-324b-4221-8c78-c6b949cc8f78</BoundTo>
+      <DependentUpon>LogIn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b5c6391f-136c-4168-b440-c761df8dcbf9</id>
+    </Compile>
+    <Compile Include="LogIn.UserCode.cs">
+      <BoundTo>c6d81684-324b-4221-8c78-c6b949cc8f78</BoundTo>
+      <DependentUpon>LogIn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>84e22ee6-06ed-4e54-9b54-3619bc9b6da5</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>e89f10e6-6c4f-4e03-b314-54fd0019c52c</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0b9624bd-5b05-401f-bfbd-fdb41e6e86ea</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>e89f10e6-6c4f-4e03-b314-54fd0019c52c</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>21f6527c-d5c1-45fa-8e80-60a50a1d16f1</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>b41664cf-2c1c-4e49-945e-a5550f8840a6</id>
+    </Compile>
+    <Compile Include="Register\RegisterUser.cs">
+      <DependentUpon>RegisterUser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>58fd21cf-753c-4ad5-8689-3a10ad8b0a6e</id>
+      <BoundTo>75a1861f-61fd-483f-a1ac-b2302e16b1d8</BoundTo>
+    </Compile>
+    <Compile Include="Register\RegisterUser.UserCode.cs">
+      <DependentUpon>RegisterUser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7243c0c5-0760-40d3-bf33-8acd24c3968f</id>
+      <BoundTo>75a1861f-61fd-483f-a1ac-b2302e16b1d8</BoundTo>
+    </Compile>
+    <Compile Include="WebAppTestRepository.cs">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <DependentUpon>WebAppTestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>cc1c3172-618b-4170-928d-0d15d6b05fe0</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DeskTop.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>b1aaf1c0-a3e0-40e4-acf7-96ace6ae6f34</id>
+    </Content>
+    <None Include="app.config">
+      <id>941c07c6-03e5-443d-aff7-988e6f4a925a</id>
+    </None>
+    <None Include="BookAFlight\FlightConfirmationPage.rxrec">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <id>d4f3d908-b9b3-4a31-8826-ba88947714d3</id>
+      <recordtableid>19d9d972-f77f-4237-bdb1-e923f37bffe4</recordtableid>
+    </None>
+    <None Include="BookAFlight\FlightFinderPage.rxrec">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <id>39b19a4a-369f-4b3e-b3e8-43858ac8910e</id>
+      <recordtableid>a7a17988-1841-4ac9-b0e4-b65454e9b2cb</recordtableid>
+    </None>
+    <None Include="BookAFlight\FlightLink.rxrec">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <id>e0624752-f322-4f92-81cf-fbde1daa4930</id>
+      <recordtableid>f0d68a8c-238f-4cc7-91aa-bb848a1bdd83</recordtableid>
+    </None>
+    <None Include="BookAFlight\PurchaseAFlight.rxrec">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <id>eab5f3c3-d439-4542-9877-527b5fd3fff4</id>
+      <recordtableid>beb6db72-138f-4600-b93a-2e9b550dad6a</recordtableid>
+    </None>
+    <None Include="BookAFlight\SelectAFlight.rxrec">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <id>1e728f88-2405-4681-8762-bd1f353ab68f</id>
+      <recordtableid>df81f0d0-57b2-479c-8052-6e54f8adc6e3</recordtableid>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <id>b05c7c81-a510-4e70-b5df-9dd466c1cc4e</id>
+      <recordtableid>6f0cd406-0e08-46a3-bb64-e2b430361f1d</recordtableid>
+    </None>
+    <Content Include="DataSet.csv">
+      <Link>DataSet.csv</Link>
+      <BoundTo>71ab4744-0937-4fe7-8571-bf4b9f4651e3</BoundTo>
+      <DependentUpon>WebAppTest.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>df309454-dcae-4702-bd1c-807643c7d30a</id>
+    </Content>
+    <None Include="DDTest.rxrec">
+      <id>33f50e78-b679-4ac4-8c3b-7eb2ec4ff358</id>
+      <recordtableid>3fbe0313-eb10-475b-a1bd-09fd110ff15b</recordtableid>
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+    </None>
+    <None Include="LogIn.rxrec">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <id>c6d81684-324b-4221-8c78-c6b949cc8f78</id>
+      <recordtableid>51d6d200-95c4-45b6-9619-6dce7ea84b95</recordtableid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <id>e89f10e6-6c4f-4e03-b314-54fd0019c52c</id>
+      <recordtableid>6cdeca12-49a7-4c85-93fe-2c80143ec1a3</recordtableid>
+    </None>
+    <None Include="Register\RegisterUser.rxrec">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <id>75a1861f-61fd-483f-a1ac-b2302e16b1d8</id>
+      <recordtableid>57b15426-becd-41c6-9738-041f65e2a6ed</recordtableid>
+    </None>
+    <Content Include="WebAppTest.rxsqc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f57e263a-8572-4f0e-aefd-00447d2e771f</id>
+    </Content>
+    <None Include="WebAppTestRepository.rximg">
+      <BoundTo>5a1378e9-4d26-478f-9399-eb77487a5dac</BoundTo>
+      <DependentUpon>WebAppTestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>d92eddfd-b1ac-428f-a6bc-3ad87b29a7c9</id>
+    </None>
+    <None Include="WebAppTestRepository.rxrep">
+      <id>5a1378e9-4d26-478f-9399-eb77487a5dac</id>
+      <repoid>2285f2ec-ed07-4374-a79a-43d3b7cb9ea2</repoid>
+      <reporootid>47e7d8aa-0a18-472d-9bc4-2ef259037955</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WebAppTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>21cdc22d-41f6-41cc-b106-a7d8ae198fb8</id>
+    </Content>
+    <Content Include="WebAppTest.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>71ab4744-0937-4fe7-8571-bf4b9f4651e3</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BookAFlight">
+      <id>3d480fcc-335a-4cfc-90db-334baecbb450</id>
+    </Folder>
+    <Folder Include="Register">
+      <id>19d59299-f272-4efe-89ba-46299d27d8ca</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

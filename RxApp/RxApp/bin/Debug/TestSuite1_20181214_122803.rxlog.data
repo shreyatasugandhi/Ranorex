@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2121df36b756f9d8"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Shreyata"
+		rxversion="8.3.1.0"
+		host="SHREYATA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="14-Dec-18 12:28:03 PM"
+		timestampiso="2018-12-14T06:58:03"
+		endtime="14-Dec-18 12:28:07 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="3.24s"
+			durationms="3241"
+			type="test-suite"
+			rid="4399aaf65fb604a"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="TestSuite1"
+			headertext="TestSuite1"
+			runconfigname="Default"
+			runlabel="">
+			<params>
+				<param
+					name="EnableJiraIntegration">
+					true
+				</param>
+				<param
+					name="JiraProjectKey">
+					TA
+				</param>
+				<param
+					name="JiraIssueType">
+					Bug
+				</param>
+				<param
+					name="JiraSummary">
+				</param>
+				<param
+					name="JiraDescription">
+				</param>
+				<param
+					name="JiraLabels">
+				</param>
+				<param
+					name="StateClosed">
+					Done
+				</param>
+				<param
+					name="StateReopen">
+					In Progress
+				</param>
+				<param
+					name="RxAutomationFieldName">
+				</param>
+				<param
+					name="jqlQueryToConnectIssues">
+				</param>
+				<param
+					name="jiraIssuePriority">
+				</param>
+				<param
+					name="jiraEnvironment">
+				</param>
+				<param
+					name="JiraUserName">
+					shreyata@goldentouchsolution.tech
+				</param>
+				<param
+					name="JiraServerURL">
+					https://shreyata.atlassian.net/
+				</param>
+				<param
+					name="JiraPassword">
+					shreyata
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="167ms"
+				durationms="167"
+				type="setup-container"
+				rid="10d312a62debf0c8"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+				<activity
+					result="Success"
+					duration="149ms"
+					durationms="149"
+					type="test-module"
+					rid="226f03fb8ea90145"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="InitializeDefaultConfiguration"
+					displayName="InitializeDefaultConfiguration"
+					moduleid="76ff8843-49b3-4968-9c30-ce917ab28d5e"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="EnableJiraIntegration"
+							value="true">
+						</varbinding>
+						<varbinding
+							name="JiraProjectKey"
+							value="TA">
+						</varbinding>
+						<varbinding
+							name="JiraIssueType"
+							value="Bug">
+						</varbinding>
+						<varbinding
+							name="JiraSummary"
+							value="">
+						</varbinding>
+						<varbinding
+							name="JiraDescription"
+							value="">
+						</varbinding>
+						<varbinding
+							name="JiraLabels"
+							value="">
+						</varbinding>
+						<varbinding
+							name="StateClosed"
+							value="Done">
+						</varbinding>
+						<varbinding
+							name="StateReopen"
+							value="In Progress">
+						</varbinding>
+						<varbinding
+							name="RxAutomationFieldName"
+							value="">
+						</varbinding>
+						<varbinding
+							name="jqlQueryToConnectIssues"
+							value="">
+						</varbinding>
+						<varbinding
+							name="jiraIssuePriority"
+							value="">
+						</varbinding>
+						<varbinding
+							name="jiraEnvironment"
+							value="">
+						</varbinding>
+						<varbinding
+							name="JiraUserName"
+							value="shreyata@goldentouchsolution.tech">
+						</varbinding>
+						<varbinding
+							name="JiraServerURL"
+							value="https://shreyata.atlassian.net/">
+						</varbinding>
+						<varbinding
+							name="JiraPassword"
+							value="shreyata">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.437"
+						timeRelativeToTestModuleStartTime="00:00.021"
+						timeWallClock="12:28:03"
+						time="00:00.437"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$EnableJiraIntegration = 'true', $JiraProjectKey = 'TA', $JiraIssueType = 'Bug', $JiraSummary = '', $JiraDescription = '', $JiraLabels = '', $StateClosed = 'Done', $StateReopen = 'In Progress', $RxAutomationFieldName = '', $jqlQueryToConnectIssues = '', $jiraIssuePriority = '', $jiraEnvironment = '', $JiraUserName = 'shreyata@goldentouchsolution.tech', $JiraServerURL = 'https://shreyata.atlassian.net/', $JiraPassword = 'shreyata'
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="3.03s"
+				durationms="3027"
+				type="test-case"
+				rid="278fda2423fafb3"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="d63011e6-2a59-4865-9b59-be7e88306df2"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="284ms"
+					durationms="284"
+					type="test-module"
+					rid="24bc5cac759ea2fe"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="FAil"
+					displayName="FAil"
+					moduleid="ab80c1fe-014f-44b9-af66-598a7ed90a8d"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.591"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="12:28:04"
+						time="00:00.591"
+						level="Failure"
+						category="User"
+						errimg="images_TestSuit_8fcee736\TestSuit_8fcee736_d08fa156_trace.jpg"
+						errthumb="images_TestSuit_8fcee736\TestSuit_8fcee736_d08fa156_trace_thumb.jpg">
+						<message>
+							
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\FAil.cs"
+							codeline="82"
+							loglvl="Failure">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.627"
+						timeRelativeToTestModuleStartTime="00:00.037"
+						timeWallClock="12:28:04"
+						time="00:00.627"
+						level="Error"
+						category="Module"
+						errimg="images_TestSuit_8fcee736\TestSuit_8fcee736_c710d643_trace.jpg"
+						errthumb="images_TestSuit_8fcee736\TestSuit_8fcee736_c710d643_trace_thumb.jpg">
+						<message>
+							The module has failed because one or more actions have failed.
+						</message>
+						<metainfo
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.73s"
+					durationms="2728"
+					type="teardown-container"
+					rid="1997db3fb89da280"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="2.7s"
+						durationms="2698"
+						type="test-module"
+						rid="36c58bc3c80ed8bc"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="AutoHandleJiraIntegration"
+						displayName="AutoHandleJiraIntegration"
+						moduleid="8b73dad1-ce2b-4ff6-8618-571f7b31fc6d"
+						moduletype="UserCode"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:03.470"
+							timeRelativeToTestModuleStartTime="00:02.594"
+							timeWallClock="12:28:06"
+							time="00:03.470"
+							level="Error"
+							category="User">
+							<message>
+								One or more errors occurred. (InnerException: System.Security.Authentication.AuthenticationException: Response Content: &lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Unauthorized (401)&lt;/title&gt;
+    
+
+
+
+
+
+&lt;!--[if IE]&gt;&lt;![endif]--&gt;
+&lt;script type=&quot;text/javascript&quot; &gt;
+    var contextPath = '';
+    var DeferScripts = { deferState: 'disabled' };
+&lt;/script&gt;
+&lt;script&gt;
+window.WRM=window.WRM||{};window.WRM._unparsedData=window.WRM._unparsedData||{};window.WRM._unparsedErrors=window.WRM._unparsedErrors||{};
+WRM._unparsedData[&quot;com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path&quot;]=&quot;\&quot;\&quot;&quot;;
+WRM._unparsedData[&quot;com.atlassian.plugins.atlassian-plugins-webresource-rest:curl.cross-origin-resources&quot;]=&quot;false&quot;;
+WRM._unparsedData[&quot;jira.webresources:feature-flags.feature-flag-data&quot;]=&quot;{\&quot;enabled-feature-keys\&quot;:[\&quot;connect.no-applinks\&quot;,\&quot;jira.plugin.devstatus.smartcommits.dvcs.enabled\&quot;,\&quot;nps.survey.inline.dialog\&quot;,\&quot;fusion.dvcs.use_amq_to_invoke_sync.enabled\&quot;,\&quot;com.atlassian.jira.plugins.mail.internal.enabled\&quot;,\&quot;sd.new.settings.sidebar.location\&quot;,\&quot;atlassian.rest.xsrf.legacy.enabled\&quot;,\&quot;jira.baseurl.cdn.enabled\&quot;,\&quot;fusion.bitbucket.rebrand\&quot;,\&quot;dvcs.connector.smartcommits.disabled\&quot;,\&quot;sd.email.mailbox.poppy.migration.poppyonly.enabled\&quot;,\&quot;dvcs.connector.repositorydao.ao.enabled\&quot;,\&quot;unified.usermanagement\&quot;,\&quot;com.atlassian.jira.projects.issuenavigator\&quot;,\&quot;com.atlassian.jira.projects.issue.summary.vignettes\&quot;,\&quot;atlassian.aui.raphael.disabled\&quot;,\&quot;fusion.dvcs.use_amq_for_executors.enabled\&quot;,\&quot;fusion.devstatus.devsummary.customfield.jql.enabled\&quot;,\&quot;com.atlassian.jira.config.CoreFeatures.PERMISSIONS_MANAGED_BY_UM\&quot;,\&quot;com.atlassian.jira.projects.ProjectCentricNavigation.Switch\&quot;,\&quot;com.atlassian.jira.config.CoreFeatures.ON_DEMAND\&quot;,\&quot;atlassian.plugin.aci.enabled\&quot;],\&quot;feature-flag-states\&quot;:{\&quot;jira.feature.flag.board.issue.modal.labs\&quot;:true,\&quot;jira.mail.default.mailstore.polling\&quot;:true,\&quot;com.atlassian.jira.plugins.mail.size.check\&quot;:true,\&quot;jira.instrumentation.laas\&quot;:false,\&quot;jira.feature.rest.single.step.avatar.upload\&quot;:true,\&quot;jira.login.useBasicAuthFilter\&quot;:true,\&quot;jira.ondemand.maintain.trusted.apps\&quot;:true,\&quot;jira.mail.fake.default.mail.server\&quot;:false,\&quot;jira.issue.search.jql.anonymize\&quot;:true,\&quot;com.atlassian.jira.plugins.mail.internal\&quot;:false,\&quot;com.atlassian.jira.feature.flag.for.TestFeatureFlagResource\&quot;:false,\&quot;com.atlassian.jira.plugins.mail.amq\&quot;:true,\&quot;jira.feature.flag.board.polling\&quot;:true,\&quot;issue.collector.cache.limiter\&quot;:true}}&quot;;
+WRM._unparsedData[&quot;jira.webresources:simplified-ux-feature-flags.feature-flag-data&quot;]=&quot;{\&quot;isBacklogViewPlanSprintXflowEnabled\&quot;:true,\&quot;isGlobalSidebarEnabled\&quot;:true,\&quot;isJraCloud69830PreventingVerifyPopServerConnectionToLeakInfo\&quot;:true,\&quot;isAdg3NewProjectAvatarsEnabled\&quot;:true,\&quot;isUserDiscoveryEnabled\&quot;:false,\&quot;isGlobalSettingsLandingPageEnable\&quot;:false,\&quot;isNewExperienceMenuEnabled\&quot;:false,\&quot;isOptinDismissed\&quot;:false,\&quot;isFiltersDirectoryVersion2Enabled\&quot;:true,\&quot;isProjectDirectoryVersion2Enabled\&quot;:true,\&quot;isAdg3FeatureStateCheckerEnabled\&quot;:false,\&quot;isStickyQuickfilterFixEnabled\&quot;:true,\&quot;isUserOptedInSkipped\&quot;:false,\&quot;isAgilityProjectFeaturesAllowed\&quot;:true,\&quot;isAdg3StylesEnabled\&quot;:true,\&quot;isGinFilterDetailsDialogEnabled\&quot;:false,\&quot;isChangeboardingOptional\&quot;:false,\&quot;isAdg3PINEnabled\&quot;:true,\&quot;isUnusedUserPreferencesHidden\&quot;:true,\&quot;isPeopleProfileEnabled\&quot;:true,\&quot;isAdg3ProfilecardEnabled\&quot;:false,\&quot;isGraduationWarningVisible\&quot;:false,\&quot;isVersionsPageOn\&quot;:true,\&quot;isImportIssueButtonEnabled\&quot;:true,\&quot;isEvalHubEnabledInJSW\&quot;:true,\&quot;isXflowPagesEnabled\&quot;:true,\&quot;isOnboardingProjectSwitcherEnabled\&quot;:false,\&quot;isLabsEnabled\&quot;:true,\&quot;isOptOutEnabled\&quot;:false,\&quot;isUserOptedIn\&quot;:false,\&quot;isAdg3ModeOn\&quot;:true,\&quot;isOptInEnabled\&quot;:false}&quot;;
+WRM._unparsedData[&quot;jira.webresources:default-comment-security-level.DefaultCommentSecurityLevelHelpLink&quot;]=&quot;{\&quot;extraClasses\&quot;:\&quot;default-comment-level-help\&quot;,\&quot;title\&quot;:\&quot;Commenting on an Issue\&quot;,\&quot;url\&quot;:\&quot;https://confluence.atlassian.com/display/JIRACORECLOUD/Editing+and+collaborating+on+issues#Editingandcollaboratingonissues-addcommentsCommentingonissues\&quot;,\&quot;isLocal\&quot;:false}&quot;;
+WRM._unparsedData[&quot;com.atlassian.jira.jira-client-analytics-plugin:analytics-context-provider.client-analytic-descriptors&quot;]=&quot;{\&quot;analyticsResource\&quot;:{\&quot;jira-core\&quot;:{\&quot;events\&quot;:{\&quot;issue.comment.added\&quot;:{\&quot;trigger\&quot;:\&quot;click #issue-comment-add-submit\&quot;,\&quot;properties\&quot;:{\&quot;comment-length\&quot;:\&quot;value.length #issue-comment-add #comment\&quot;}}}}},\&quot;tenantId\&quot;:\&quot;4c5d14b8-f934-4106-901d-c54f7e1c4e14\&quot;,\&quot;env\&quot;:\&quot;prod\&quot;}&quot;;
+WRM._unparsedData[&quot;jira.webresources:key-commands.shortcuts&quot;]=&quot;[{\&quot;moduleKey\&quot;:\&quot;go-to-dashboard-kb-shortcut\&quot;,\&quot;keys\&quot;:[[\&quot;g\&quot;,\&quot;d\&quot;]],\&quot;context\&quot;:\&quot;global\&quot;,\&quot;op\&quot;:\&quot;goTo\&quot;,\&quot;param\&quot;:\&quot;/secure/Dashboard.jspa\&quot;},{\&quot;moduleKey\&quot;:\&quot;browse-project-kb-shortcut\&quot;,\&quot;keys\&quot;:[[\&quot;g\&quot;,\&quot;p\&quot;]],\&quot;context\&quot;:\&quot;global\&quot;,\&quot;op\&quot;:\&quot;execute\&quot;,\&quot;param\&quot;:\&quot;var elem = jQuery(\\\&quot;#browse_link\\\&quot;);\\n                if (elem.length \u003e 0) {\\n                    window.location.href = elem.attr(\\\&quot;href\\\&quot;);\\n                }\&quot;},{\&quot;moduleKey\&quot;:\&quot;issue-navigator-kb-shortcut\&quot;,\&quot;keys\&quot;:[[\&quot;g\&quot;,\&quot;i\&quot;]],\&quot;context\&quot;:\&quot;global\&quot;,\&quot;op\&quot;:\&quot;execute\&quot;,\&quot;param\&quot;:\&quot;var elem = jQuery(\\\&quot;#find_link\\\&quot;);\\n                if (elem.length \u003e 0) {\\n                    window.location.href = elem.attr(\\\&quot;href\\\&quot;);\\n                }\&quot;},{\&quot;moduleKey\&quot;:\&quot;admin.quicksearch.dialog.shortcut\&quot;,\&quot;keys\&quot;:[[\&quot;g\&quot;,\&quot;g\&quot;]],\&quot;context\&quot;:\&quot;global\&quot;,\&quot;op\&quot;:\&quot;execute\&quot;,\&quot;param\&quot;:\&quot;if (AJS.Meta.get(\'admin-quicksearch-show\')) {\\n              JIRA.Shifter.show(\'admin\');\\n            }\&quot;},{\&quot;moduleKey\&quot;:\&quot;quicksearch\&quot;,\&quot;keys\&quot;:[[\&quot;/\&quot;]],\&quot;context\&quot;:\&quot;global\&quot;,\&quot;op\&quot;:\&quot;moveToAndFocus\&quot;,\&quot;param\&quot;:\&quot;#quickSearchInput, #admin-quick-nav-field\&quot;},{\&quot;moduleKey\&quot;:\&quot;create.issue\&quot;,\&quot;keys\&quot;:[[\&quot;c\&quot;]],\&quot;context\&quot;:\&quot;global\&quot;,\&quot;op\&quot;:\&quot;moveToAndClick\&quot;,\&quot;param\&quot;:\&quot;#header .create-issue\&quot;},{\&quot;moduleKey\&quot;:\&quot;shifter\&quot;,\&quot;keys\&quot;:[[\&quot;.\&quot;]],\&quot;context\&quot;:\&quot;global\&quot;,\&quot;op\&quot;:\&quot;execute\&quot;,\&quot;param\&quot;:\&quot;JIRA.Shifter.show();\&quot;},{\&quot;moduleKey\&quot;:\&quot;help\&quot;,\&quot;keys\&quot;:[[\&quot;?\&quot;]],\&quot;context\&quot;:\&quot;global\&quot;,\&quot;op\&quot;:\&quot;click\&quot;,\&quot;param\&quot;:\&quot;#keyshortscuthelp\&quot;}]&quot;;
+WRM._unparsedData[&quot;com.atlassian.plugins.atlassian-connect-plugin:dialog-options.data&quot;]=&quot;{\&quot;allJsVersion\&quot;:\&quot;1.2.21\&quot;,\&quot;dialogOptions\&quot;:{},\&quot;inlineDialogOptions\&quot;:{},\&quot;dialogModules\&quot;:{\&quot;stspg-jira-ops\&quot;:{\&quot;login-dialog\&quot;:{\&quot;cacheable\&quot;:false,\&quot;options\&quot;:{\&quot;height\&quot;:\&quot;700px\&quot;,\&quot;chrome\&quot;:false,\&quot;header\&quot;:{\&quot;value\&quot;:\&quot;Statuspage Login\&quot;},\&quot;width\&quot;:\&quot;600px\&quot;},\&quot;key\&quot;:\&quot;login-dialog\&quot;},\&quot;create-incident-dialog\&quot;:{\&quot;cacheable\&quot;:false,\&quot;options\&quot;:{\&quot;height\&quot;:\&quot;100%\&quot;,\&quot;chrome\&quot;:false,\&quot;header\&quot;:{\&quot;value\&quot;:\&quot;Create Incident\&quot;},\&quot;width\&quot;:\&quot;100%\&quot;},\&quot;key\&quot;:\&quot;create-incident-dialog\&quot;},\&quot;update-incident-dialog\&quot;:{\&quot;cacheable\&quot;:false,\&quot;options\&quot;:{\&quot;height\&quot;:\&quot;100%\&quot;,\&quot;chrome\&quot;:false,\&quot;header\&quot;:{\&quot;value\&quot;:\&quot;Update Incident\&quot;},\&quot;width\&quot;:\&quot;100%\&quot;},\&quot;key\&quot;:\&quot;update-incident-dialog\&quot;},\&quot;project-configure-dialog\&quot;:{\&quot;cacheable\&quot;:false,\&quot;options\&quot;:{\&quot;height\&quot;:\&quot;700px\&quot;,\&quot;chrome\&quot;:false,\&quot;header\&quot;:{\&quot;value\&quot;:\&quot;Configure\&quot;},\&quot;width\&quot;:\&quot;600px\&quot;},\&quot;key\&quot;:\&quot;project-configure-dialog\&quot;},\&quot;ops-setup-flow\&quot;:{\&quot;cacheable\&quot;:false,\&quot;options\&quot;:{\&quot;height\&quot;:\&quot;700px\&quot;,\&quot;chrome\&quot;:false,\&quot;header\&quot;:{\&quot;value\&quot;:\&quot;Configure\&quot;},\&quot;width\&quot;:\&quot;600px\&quot;},\&quot;key\&quot;:\&quot;ops-setup-flow\&quot;},\&quot;change-project-statuspage\&quot;:{\&quot;cacheable\&quot;:false,\&quot;options\&quot;:{\&quot;height\&quot;:\&quot;700px\&quot;,\&quot;chrome\&quot;:false,\&quot;header\&quot;:{\&quot;value\&quot;:\&quot;Change Project Statuspage\&quot;},\&quot;width\&quot;:\&quot;600px\&quot;},\&quot;key\&quot;:\&quot;change-project-statuspage\&quot;}},\&quot;com.atlassian.jira.chat\&quot;:{\&quot;stride-create-room-dialog\&quot;:{\&quot;cacheable\&quot;:false,\&quot;options\&quot;:{\&quot;height\&quot;:\&quot;650\&quot;,\&quot;header\&quot;:{\&quot;value\&quot;:\&quot;Title\&quot;},\&quot;width\&quot;:\&quot;548\&quot;},\&quot;key\&quot;:\&quot;stride-create-room-dialog\&quot;}}}}&quot;;
+WRM._unparsedData[&quot;com.atlassian.plugins.atlassian-connect-plugin:jira-date-picker-widget.config&quot;]=&quot;{\&quot;dateFormat\&quot;:\&quot;%e/%b/%y\&quot;,\&quot;dateTimeFormat\&quot;:\&quot;%e/%b/%y %I:%M %p\&quot;,\&quot;timeFormat\&quot;:\&quot;12\&quot;,\&quot;firstDay\&quot;:1,\&quot;useISO8601WeekNumbers\&quot;:false}&quot;;
+WRM._unparsedData[&quot;com.atlassian.product.fabric.pf-jira-confluence-integration-plugin:app-switcher-initial-resources.cloud-id&quot;]=&quot;\&quot;4c5d14b8-f934-4106-901d-c54f7e1c4e14\&quot;&quot;;
+WRM._unparsedData[&quot;com.atlassian.product.fabric.pf-jira-confluence-integration-plugin:app-switcher-initial-resources.is-anonymous&quot;]=&quot;true&quot;;
+WRM._unparsedData[&quot;jira.webresources:dateFormatProvider.dateFormat&quot;]=&quot;{\&quot;meridiem\&quot;:[\&quot;AM\&quot;,\&quot;PM\&quot;],\&quot;eras\&quot;:[\&quot;BC\&quot;,\&quot;AD\&quot;],\&quot;months\&quot;:[\&quot;January\&quot;,\&quot;February\&quot;,\&quot;March\&quot;,\&quot;April\&quot;,\&quot;May\&quot;,\&quot;June\&quot;,\&quot;July\&quot;,\&quot;August\&quot;,\&quot;September\&quot;,\&quot;October\&quot;,\&quot;November\&quot;,\&quot;December\&quot;],\&quot;monthsShort\&quot;:[\&quot;Jan\&quot;,\&quot;Feb\&quot;,\&quot;Mar\&quot;,\&quot;Apr\&quot;,\&quot;May\&quot;,\&quot;Jun\&quot;,\&quot;Jul\&quot;,\&quot;Aug\&quot;,\&quot;Sep\&quot;,\&quot;Oct\&quot;,\&quot;Nov\&quot;,\&quot;Dec\&quot;],\&quot;weekdaysShort\&quot;:[\&quot;Sun\&quot;,\&quot;Mon\&quot;,\&quot;Tue\&quot;,\&quot;Wed\&quot;,\&quot;Thu\&quot;,\&quot;Fri\&quot;,\&quot;Sat\&quot;],\&quot;weekdays\&quot;:[\&quot;Sunday\&quot;,\&quot;Monday\&quot;,\&quot;Tuesday\&quot;,\&quot;Wednesday\&quot;,\&quot;Thursday\&quot;,\&quot;Friday\&quot;,\&quot;Saturday\&quot;]}&quot;;
+WRM._unparsedData[&quot;com.atlassian.servicedesk.frontend-webpack-plugin:data-provider.webpack-meta&quot;]=&quot;{\&quot;locale\&quot;:\&quot;en-US\&quot;,\&quot;publicPath\&quot;:\&quot;//dj5ik92thaum4.cloudfront.net/atl-vertigo--shard-jira-prod-eu-6--4--jres.atlassian.net/s/y6iqix/b/39/1001.0.0-SNAPSHOT/_/download/resources/com.atlassian.servicedesk.frontend-webpack-plugin:webpack-async-chunks/\&quot;}&quot;;
+WRM._unparsedData[&quot;com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-help-paths&quot;]=&quot;{\&quot;entries\&quot;:{\&quot;applinks.docs.root\&quot;:\&quot;https://confluence.atlassian.com/display/APPLINKS-080/\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.sslunmatched\&quot;:\&quot;SSL+and+application+link+troubleshooting+guide\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.oauthsignatureinvalid\&quot;:\&quot;OAuth+troubleshooting+guide\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.oauthtimestamprefused\&quot;:\&quot;OAuth+troubleshooting+guide\&quot;,\&quot;applinks.docs.delete.entity.link\&quot;:\&quot;Create+links+between+projects\&quot;,\&quot;applinks.docs.adding.application.link\&quot;:\&quot;Link+Atlassian+applications+to+work+together\&quot;,\&quot;applinks.docs.administration.guide\&quot;:\&quot;Application+Links+Documentation\&quot;,\&quot;applinks.docs.oauth.security\&quot;:\&quot;OAuth+security+for+application+links\&quot;,\&quot;applinks.docs.troubleshoot.application.links\&quot;:\&quot;Troubleshoot+application+links\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.unknownerror\&quot;:\&quot;Network+and+connectivity+troubleshooting+guide\&quot;,\&quot;applinks.docs.configuring.auth.trusted.apps\&quot;:\&quot;Configuring+Trusted+Applications+authentication+for+an+application+link\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.authlevelunsupported\&quot;:\&quot;OAuth+troubleshooting+guide\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.ssluntrusted\&quot;:\&quot;SSL+and+application+link+troubleshooting+guide\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.unknownhost\&quot;:\&quot;Network+and+connectivity+troubleshooting+guide\&quot;,\&quot;applinks.docs.delete.application.link\&quot;:\&quot;Link+Atlassian+applications+to+work+together\&quot;,\&quot;applinks.docs.link.applications\&quot;:\&quot;Link+Atlassian+applications+to+work+together\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.oauthproblem\&quot;:\&quot;OAuth+troubleshooting+guide\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.migration\&quot;:\&quot;Update+application+links+to+use+OAuth\&quot;,\&quot;applinks.docs.relocate.application.link\&quot;:\&quot;Link+Atlassian+applications+to+work+together\&quot;,\&quot;applinks.docs.administering.entity.links\&quot;:\&quot;Create+links+between+projects\&quot;,\&quot;applinks.docs.upgrade.application.link\&quot;:\&quot;OAuth+security+for+application+links\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.connectionrefused\&quot;:\&quot;Network+and+connectivity+troubleshooting+guide\&quot;,\&quot;applinks.docs.configuring.auth.oauth\&quot;:\&quot;OAuth+security+for+application+links\&quot;,\&quot;applinks.docs.insufficient.remote.permission\&quot;:\&quot;OAuth+security+for+application+links\&quot;,\&quot;applinks.docs.configuring.application.link.auth\&quot;:\&quot;OAuth+security+for+application+links\&quot;,\&quot;applinks.docs.diagnostics\&quot;:\&quot;Application+links+diagnostics\&quot;,\&quot;applinks.docs.configured.authentication.types\&quot;:\&quot;OAuth+security+for+application+links\&quot;,\&quot;applinks.docs.adding.entity.link\&quot;:\&quot;Create+links+between+projects\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.unexpectedresponse\&quot;:\&quot;Network+and+connectivity+troubleshooting+guide\&quot;,\&quot;applinks.docs.configuring.auth.basic\&quot;:\&quot;Configuring+Basic+HTTP+Authentication+for+an+Application+Link\&quot;,\&quot;applinks.docs.diagnostics.troubleshoot.authlevelmismatch\&quot;:\&quot;OAuth+troubleshooting+guide\&quot;}}&quot;;
+WRM._unparsedData[&quot;com.atlassian.applinks.applinks-plugin:applinks-common-exported.applinks-types&quot;]=&quot;{\&quot;crowd\&quot;:\&quot;Crowd\&quot;,\&quot;confluence\&quot;:\&quot;Confluence\&quot;,\&quot;remote.plugin.container\&quot;:\&quot;Atlassian Connect\&quot;,\&quot;fecru\&quot;:\&quot;FishEye / Crucible\&quot;,\&quot;stash\&quot;:\&quot;Stash\&quot;,\&quot;jira\&quot;:\&quot;JIRA\&quot;,\&quot;bamboo\&quot;:\&quot;Bamboo\&quot;,\&quot;generic\&quot;:\&quot;Generic Application\&quot;}&quot;;
+WRM._unparsedData[&quot;com.atlassian.applinks.applinks-plugin:applinks-common-exported.entity-types&quot;]=&quot;{\&quot;singular\&quot;:{\&quot;fecru.project\&quot;:\&quot;Crucible Project\&quot;,\&quot;fecru.repository\&quot;:\&quot;FishEye Repository\&quot;,\&quot;stash.project\&quot;:\&quot;Stash Project\&quot;,\&quot;generic.entity\&quot;:\&quot;Generic Project\&quot;,\&quot;confluence.space\&quot;:\&quot;Confluence Space\&quot;,\&quot;bamboo.project\&quot;:\&quot;Bamboo Project\&quot;,\&quot;jira.project\&quot;:\&quot;JIRA Project\&quot;},\&quot;plural\&quot;:{\&quot;fecru.project\&quot;:\&quot;Crucible Projects\&quot;,\&quot;fecru.repository\&quot;:\&quot;FishEye Repositories\&quot;,\&quot;stash.project\&quot;:\&quot;Stash Projects\&quot;,\&quot;generic.entity\&quot;:\&quot;Generic Projects\&quot;,\&quot;confluence.space\&quot;:\&quot;Confluence Spaces\&quot;,\&quot;bamboo.project\&quot;:\&quot;Bamboo Projects\&quot;,\&quot;jira.project\&quot;:\&quot;JIRA Projects\&quot;}}&quot;;
+WRM._unparsedData[&quot;com.atlassian.applinks.applinks-plugin:applinks-common-exported.authentication-types&quot;]=&quot;{\&quot;com.atlassian.applinks.api.auth.types.BasicAuthenticationProvider\&quot;:\&quot;Basic Access\&quot;,\&quot;com.atlassian.applinks.api.auth.types.CorsAuthenticationProvider\&quot;:\&quot;CORS\&quot;,\&quot;com.atlassian.applinks.api.auth.types.TrustedAppsAuthenticationProvider\&quot;:\&quot;Trusted Applications\&quot;,\&quot;com.atlassian.applinks.api.auth.types.OAuthAuthenticationProvider\&quot;:\&quot;OAuth\&quot;,\&quot;com.atlassian.applinks.api.auth.types.TwoLeggedOAuthAuthenticationProvider\&quot;:\&quot;OAuth\&quot;,\&quot;com.atlassian.applinks.api.auth.types.TwoLeggedOAuthWithImpersonationAuthenticationProvider\&quot;:\&quot;OAuth\&quot;}&quot;;
+WRM._unparsedData[&quot;com.atlassian.crowd.user-provisioning-vertigo-plugin:create-users-resources.isSiteAdmin&quot;]=&quot;false&quot;;
+WRM._unparsedData[&quot;jira.webresources:avatar-picker.data&quot;]=&quot;{\&quot;isEnabled\&quot;:true,\&quot;url\&quot;:\&quot;/plugins/servlet/redirectToProfile?target=edit-avatar\&quot;}&quot;;
+WRM._unparsedData[&quot;com.atlassian.jira.jira-header-plugin:dismissedFlags.flags&quot;]=&quot;{\&quot;dismissed\&quot;:[]}&quot;;
+WRM._unparsedData[&quot;com.atlassian.jira.ui.selector:ui-selector.uri-override&quot;]=&quot;{\&quot;uri\&quot;:\&quot;\&quot;}&quot;;
+WRM._unparsedData[&quot;com.atlassian.servicedesk.core-ui:util-help-links.help-links&quot;]=&quot;{\&quot;help\&quot;:{\&quot;sla.settings\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/setting+up+slas\&quot;,\&quot;email.settings\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Receiving+requests+by+email\&quot;,\&quot;servicedesk.organizations\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Setting+up+service+desk+users#Settingupservicedeskusers-manageorgsManageorganizations\&quot;,\&quot;request.type\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/configuring+request+types+and+workflows\&quot;,\&quot;email.setup\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Receiving+requests+by+email\&quot;,\&quot;servicedesk.users\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Setting+up+service+desk+users\&quot;,\&quot;managing.queues\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Setting+up+queues+for+your+team\&quot;,\&quot;documentation.home\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Jira+Service+Desk+Cloud+documentation\&quot;,\&quot;multi.language.portal\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Translating+your+customer+portal+and+supporting+multiple+languages\&quot;,\&quot;default\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/\&quot;,\&quot;portal.settings\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/best+practices+for+designing+the+customer+portal\&quot;,\&quot;setting.up.reports\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Setting+up+service+desk+reports\&quot;,\&quot;getting.started.agent\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Getting+started+for+service+desk+agents\&quot;,\&quot;queues.setup\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/setting+up+queues+for+your+team\&quot;,\&quot;request.settings.help.bubble\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Managing+access+to+your+service+desk\&quot;,\&quot;email.settings.suitablerequest\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Receiving+requests+by+email#Receivingrequestsbyemail-suitablerequest\&quot;,\&quot;servicedesk.software.teams\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/best+practices+for+software+teams+using+jira+service+desk\&quot;,\&quot;create.space.help\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Serving+customers+with+a+knowledge+base#serving-customers-with-a-knowledge-base-createpermission\&quot;,\&quot;admin.notifications.config\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Managing+service+desk+notifications\&quot;,\&quot;email.settings.troubleshooting\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Troubleshooting+issues+with+the+email+channel\&quot;,\&quot;troubleshoot.requesttype\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Troubleshooting+issues+with+request+types\&quot;,\&quot;approvals.configuration\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Configuring+JIRA+Service+Desk+approvals\&quot;,\&quot;public.signup\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Configuring+public+signup\&quot;,\&quot;resolve.permission.scheme.errors\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Resolving+permission+scheme+errors\&quot;,\&quot;knowledge.base\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Serving+customers+with+a+knowledge+base\&quot;,\&quot;getting.started\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Getting+started+with+JIRA+Service+Desk\&quot;,\&quot;invite.customers\&quot;:\&quot;https://confluence.atlassian.com/display/SERVICEDESKCLOUD/Managing+access+to+your+service+desk\&quot;},\&quot;kb\&quot;:{\&quot;default\&quot;:\&quot;https://confluence.atlassian.com/display/SDKB/\&quot;,\&quot;legacytransition\&quot;:\&quot;https://confluence.atlassian.com/display/SDKB/Replacing+legacy+automatic+transitions+with+automation+rules\&quot;,\&quot;umtroubleshoot\&quot;:\&quot;https://confluence.atlassian.com/display/SDKB/Troubleshooting+issues+with+service+desk+user+management\&quot;}}&quot;;
+WRM._unparsedData[&quot;com.atlassian.servicedesk.core-ui:util-base-url.base-url&quot;]=&quot;\&quot;https://shreyata.atlassian.net\&quot;&quot;;
+WRM._unparsedData[&quot;com.atlassian.jira.ext.calendar:tipDataProvider.tip&quot;]=&quot;{\&quot;suppressTip\&quot;:false}&quot;;
+WRM._unparsedData[&quot;com.atlassian.jira.jira-tzdetect-plugin:tzdetect-lib.time-zone-data&quot;]=&quot;{\&quot;julyOffset\&quot;:19800000,\&quot;tzid\&quot;:\&quot;Asia/Kolkata\&quot;,\&quot;tzname\&quot;:\&quot;(GMT+05:30) Kolkata\&quot;,\&quot;janOffset\&quot;:19800000,\&quot;enabled\&quot;:false}&quot;;
+WRM._unparsedData[&quot;com.atlassian.labs.hipchat.hipchat-for-jira-plugin:resources-init.is-hipchat-enabled-data-provider&quot;]=&quot;false&quot;;
+WRM._unparsedData[&quot;jira.webresources:user-message-flags.adminLockout&quot;]=&quot;{}&quot;;
+WRM._unparsedData[&quot;com.atlassian.plugins.helptips.jira-help-tips:help-tip-manager.JiraHelpTipData&quot;]=&quot;{\&quot;anonymous\&quot;:true}&quot;;
+if(window.WRM._dataArrived)window.WRM._dataArrived();&lt;/script&gt;
+&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;//dj5ik92thaum4.cloudfront.net/atl-vertigo--shard-jira-prod-eu-6--4--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/y6iqix/b/39/4f9a9a37cb0ca9d1c8a5039ae4ca1f68/_/download/contextbatch/css/_super/batch.css?adg3Enabled=true&amp;amp;relative-url=true&quot; data-wrm-key=&quot;_super&quot; data-wrm-batch-type=&quot;context&quot; media=&quot;all&quot;&gt;
+&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;//dj5ik92thaum4.cloudfront.net/atl-vertigo--shard-jira-prod-eu-6--4--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/y6iqix/b/39/bd1c5eb2ba3a0c5ae24aaec21103b27d/_/download/contextbatch/css/atl.general,jira.general,atl.global,jira.global,-_super/batch.css?adg3Enabled=true&amp;amp;agile_global_admin_condition=true&amp;amp;devsummary=true&amp;amp;globalSidebarEnabled=true&amp;amp;jag=true&amp;amp;relative-url=true&quot; data-wrm-key=&quot;atl.general,jira.general,atl.global,jira.global,-_super&quot; data-wrm-batch-type=&quot;context&quot; media=&quot;all&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//dj5ik92thaum4.cloudfront.net/atl-vertigo--shard-jira-prod-eu-6--4--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/y6iqix/b/39/a9af405afa6ea68f9e9fa9c23f22f135/_/download/contextbatch/js/_super/batch.js?adg3Enabled=true&amp;amp;locale=en-US&quot; data-wrm-key=&quot;_super&quot; data-wrm-batch-type=&quot;context&quot; data-initially-rendered&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//dj5ik92thaum4.cloudfront.net/atl-vertigo--shard-jira-prod-eu-6--4--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/y6iqix/b/39/593e04925c39ec53050f30e4682901ab/_/download/contextbatch/js/atl.general,jira.general,atl.global,jira.global,-_super/batch.js?adg3Enabled=true&amp;amp;agile_global_admin_condition=true&amp;amp;devsummary=true&amp;amp;globalSidebarEnabled=true&amp;amp;jag=true&amp;amp;locale=en-US&quot; data-wrm-key=&quot;atl.general,jira.general,atl.global,jira.global,-_super&quot; data-wrm-batch-type=&quot;context&quot; data-initially-rendered&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//dj5ik92thaum4.cloudfront.net/atl-vertigo--shard-jira-prod-eu-6--4--jres.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/y6iqix/b/39/2bff7534406abf77f6136255b60cd19a/_/download/batch/com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition/com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition.js&quot; data-wrm-key=&quot;com.pyxis.greenhopper.jira:gh-create-board-adg3-no-condition&quot; data-wrm-batch-type=&quot;resource&quot; data-initially-rendered&gt;&lt;/script&gt;
+&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;//dj5ik92thaum4.cloudfront.net/shreyata.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-CDN/y6iqix/b/39/8e52984387a03438c9cbd1cad369e0f9/_/download/jira-lf-contextbatch/css/jira.global.look-and-feel,-_super/batch.css?adg3Enabled=true&amp;amp;relative-url=true&quot; data-wrm-key=&quot;jira.global.look-and-feel,-_super&quot; data-wrm-batch-type=&quot;context&quot; media=&quot;all&quot;&gt;
+
+    &lt;meta name=&quot;application-name&quot; content=&quot;JIRA&quot; data-name=&quot;jira&quot; data-version=&quot;1001.0.0-SNAPSHOT&quot;&gt;
+&lt;/head&gt;
+&lt;body id=&quot;jira&quot; class=&quot;aui-layout aui-style-default page-type-message&quot;  data-version=&quot;1001.0.0-SNAPSHOT&quot; &gt;
+    &lt;div class=&quot;aui-page-panel&quot;&gt;&lt;div class=&quot;aui-page-panel-inner&quot;&gt;
+            &lt;section class=&quot;aui-page-panel-content&quot;&gt;
+                    &lt;header class=&quot;aui-page-header&quot;&gt;&lt;div class=&quot;aui-page-header-inner&quot;&gt;
+                            &lt;div class=&quot;aui-page-header-main&quot;&gt;
+                                    &lt;h1&gt;Unauthorized (401)&lt;/h1&gt;
+                                &lt;/div&gt;&lt;!-- .aui-page-header-main --&gt;
+                        &lt;/div&gt;&lt;!-- .aui-page-header-inner --&gt;&lt;/header&gt;&lt;!-- .aui-page-header --&gt;
+                    &lt;div class=&quot;aui-message aui-message-warning warning&quot;&gt;
+                            &lt;p&gt;Encountered a &lt;code&gt;&amp;quot;401 - Unauthorized&amp;quot;&lt;/code&gt; error while loading this page.&lt;/p&gt;
+                            &lt;p&gt;&lt;a href=&quot;/secure/MyJiraHome.jspa&quot;&gt;Go to Jira home&lt;/a&gt;&lt;/p&gt;
+                        &lt;/div&gt;
+                &lt;/section&gt;&lt;!-- .aui-page-panel-content --&gt;
+        &lt;/div&gt;&lt;!-- .aui-page-panel-inner --&gt;&lt;/div&gt;&lt;!-- .aui-page-panel --&gt;
+&lt;/body&gt;
+&lt;/html&gt;<br/>   at Atlassian.Jira.Remote.JiraRestClient.GetValidJsonFromResponse(IRestRequest request, IRestResponse response)<br/>   at Atlassian.Jira.Remote.JiraRestClient.&lt;ExecuteRequestAsync&gt;d__10.MoveNext()<br/>--- End of stack trace from previous location where exception was thrown ---<br/>   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)<br/>   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)<br/>   at Atlassian.Jira.Remote.IssueTypeService.&lt;GetIssueTypesForProjectAsync&gt;d__3.MoveNext() -- )
+							</message>
+							<metainfo
+								codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Jira\src\AbstractJiraIntegrationClient.cs"
+								codeline="41"
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

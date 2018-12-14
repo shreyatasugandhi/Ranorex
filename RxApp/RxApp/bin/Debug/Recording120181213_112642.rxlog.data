@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5de13530524c0e"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Shreyata"
+		rxversion="8.3.1.0"
+		host="SHREYATA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="13-Dec-18 11:26:48 AM"
+		timestampiso="2018-12-13T05:56:48"
+		endtime="13-Dec-18 11:26:55 AM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'RxAppRepository.ApplicationUnderTest.LblWelcomeMessage' does not match the specified RegEx (actual='Welcome, SHR!', regex='Welcome, SS!').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.232"
+			timeRelativeToTestModuleStartTime="00:05.234"
+			timeWallClock="11:26:53"
+			time="00:05.232"
+			level="Warn"
+			category="Data"
+			errimg=".\Recordin_3680e1e9_ddb8e0fe_trace.jpg"
+			errthumb=".\Recordin_3680e1e9_ddb8e0fe_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.263"
+			timeRelativeToTestModuleStartTime="00:05.265"
+			timeWallClock="11:26:53"
+			time="00:05.263"
+			level="Info"
+			category="Validation"
+			errimg=".\Recordin_3680e1e9_ddb8e0fe_trace.jpg"
+			errthumb=".\Recordin_3680e1e9_ddb8e0fe_trace_thumb.jpg">
+			<message>
+				Validating AttributeRegex (Text~'Welcome, SS!') on item 'textInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RxAppRepository.ApplicationUnderTest.LblWelcomeMessage"
+				id="ad25e72bb75b4517815641cfc563c874"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording1.UserCode.cs"
+				codeline="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.991"
+			timeRelativeToTestModuleStartTime="00:06.993"
+			timeWallClock="11:26:55"
+			time="00:06.991"
+			level="Failure"
+			category="Validation"
+			errimg=".\Recordin_3680e1e9_50f86f91_trace.jpg"
+			errthumb=".\Recordin_3680e1e9_50f86f91_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'RxAppRepository.ApplicationUnderTest.LblWelcomeMessage' does not match the specified RegEx (actual='Welcome, SHR!', regex='Welcome, SS!').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RxAppRepository.ApplicationUnderTest.LblWelcomeMessage"
+				id="ad25e72bb75b4517815641cfc563c874"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording1.UserCode.cs"
+				codeline="39"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.007"
+			timeRelativeToTestModuleStartTime="00:07.009"
+			timeWallClock="11:26:55"
+			time="00:07.007"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_3680e1e9_50f86f91_trace.jpg"
+			errthumb=".\Recordin_3680e1e9_50f86f91_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'RxAppRepository.ApplicationUnderTest.LblWelcomeMessage' does not match the specified RegEx (actual='Welcome, SHR!', regex='Welcome, SS!').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)&#13;&#10;   at Ranorex.Validate.ReportOrThrowIfFailed(String errorReason, String message, String matchName, Object actualValue, Object matchValue, IElement element, RepoItemInfo itemInfo, Options options, RanorexException innerException)&#13;&#10;   at Ranorex.Validate.AttributeCompareImpl(IElement element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.&lt;>c__DisplayClass41_0.&lt;Execute>g__attCompare|0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleValidateAttribute[T](Func`1 action, IAttributeValidation attributeValidation)&#13;&#10;   at Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)&#13;&#10;   at Ranorex.Validate.AttributeRegexInternal(IElement element, String name, Regex regex, String message, Options options, RepoItemInfo itemInfo)&#13;&#10;   at Ranorex.Validate.AttributeRegexInternal(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeRegex(RepoItemInfo itemInfo, String name, Regex regex, String message, Options options)&#13;&#10;   at Ranorex.Validate.AttributeRegex(RepoItemInfo itemInfo, String name, Regex regex)&#13;&#10;   at RxApp.Recording1.Validate_LblWelcomeMessage1(RepoItemInfo textInfo) in D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording1.UserCode.cs:line 39&#13;&#10;   at RxApp.Recording1.Ranorex.Core.Testing.ITestModule.Run() in D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording1.cs:line 93&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording1.UserCode.cs"
+				codeline="39"
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RxAppRepository.ApplicationUnderTest.LblWelcomeMessage"
+				id="ad25e72bb75b4517815641cfc563c874"
+				timeout="60000"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5446ac10-7f7c-4349-9f6a-fdff8750f3c1"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		StartAUT
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="DesktopTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				D:\Work\Freelance\Trainings\Renorex\RxDemoApp\RxDemoApp.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="49f804d2-4bf0-45c4-bdc5-3e0d5cb9764f"
+	name="DesktopTestRepository"
+	relativepath="DesktopTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="DesktopTestRepository"
+		namespace="DesktopTest">
+		</codegen>
+		<rootfolder
+		id="9da6b11e-c49b-4543-81ff-4bc495b30fb1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

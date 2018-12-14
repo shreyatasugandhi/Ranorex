@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="99fd4450b7c9b62"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Shreyata"
+		rxversion="8.3.1.0"
+		host="SHREYATA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="13-Dec-18 11:19:27 AM"
+		timestampiso="2018-12-13T05:49:27"
+		endtime="13-Dec-18 11:19:42 AM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.158"
+			timeRelativeToTestModuleStartTime="00:11.159"
+			timeWallClock="11:19:38"
+			time="00:11.158"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>name
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.195"
+			timeRelativeToTestModuleStartTime="00:11.196"
+			timeWallClock="11:19:38"
+			time="00:11.195"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (Text~'Welcome, SS!') on item 'textInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RxAppRepository.ApplicationUnderTest.LblWelcomeMessage"
+				id="ad25e72bb75b4517815641cfc563c874"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording1.UserCode.cs"
+				codeline="44"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.103"
+			timeRelativeToTestModuleStartTime="00:15.104"
+			timeWallClock="11:19:42"
+			time="00:15.103"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'RxAppRepository.ApplicationUnderTest.LblWelcomeMessage' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				fullname="RxAppRepository.ApplicationUnderTest.LblWelcomeMessage"
+				id="ad25e72bb75b4517815641cfc563c874"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording1.UserCode.cs"
+				codeline="45"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

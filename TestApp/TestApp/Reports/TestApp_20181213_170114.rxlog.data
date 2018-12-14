@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4ef4a78edd122c4"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Shreyata"
+		rxversion="8.3.1.0"
+		host="SHREYATA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="13-Dec-18 5:01:14 PM"
+		timestampiso="2018-12-13T11:31:14"
+		endtime="13-Dec-18 5:03:02 PM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="1.8m"
+			durationms="106760"
+			type="test-suite"
+			rid="17b18b0613db476"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="TestApp"
+			headertext="TestApp"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<errormessage>
+				An internal error occurred while executing the test case. System.Threading.ThreadAbortException: Thread was being aborted.
+   at Ranorex.Core.Testing.TestModuleLeaf.Run(DataContext parentDataContext, Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.RunChildren(IEnumerable`1 entries, TestResult overallResult, Boolean&amp; childSkip, Boolean&amp; tearDownPending)
+   at Ranorex.Core.Testing.TestCaseNode.RunChildren(Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.&lt;&gt;c__DisplayClass86_0.&lt;RunIteration&gt;b__0(RetryInfo retry)
+   at Ranorex.Core.Testing.Retry.DoRetry(Func`2 operationToRetry)
+   at Ranorex.Core.Testing.Retry.Do(Func`2 operationToRetry)
+   at Ranorex.Core.Testing.TestCaseNode.RunIteration(Boolean childSkip, ActivityExecType executeType, Int32 iteration, IDictionary`2 dataRowOrParams)
+   at Ranorex.Core.Testing.TestCaseNode.RunWithIterations(Boolean childSkip, IterationExecType executeType)
+   at Ranorex.Core.Testing.TestCaseNode.RunInternal(Boolean childSkip)
+   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)
+			</errormessage>
+			<activity
+				result="Success"
+				duration="1.7m"
+				durationms="103635"
+				type="iteration-container"
+				rid="3385d0c35051bab"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				displayName="TestCase"
+				headertext="TestCase"
+				testentry-activity-type="testcase"
+				iteration-exectype="dataiteration"
+				testcontainerid="ff8b6f63-f53f-4a4b-bc5b-2d9dd2e7caf6"
+				datasource="ExcelDataSet"
+				dataiterationcount="4">
+				<activity
+					result="Success"
+					duration="1.7m"
+					durationms="103608"
+					type="test-case"
+					rid="3b85923d81861f1"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="1"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="2"
+					childblockedcount="0"
+					totalsuccesscount="1"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					testcontainername="TestCase"
+					testcontainerid="ff8b6f63-f53f-4a4b-bc5b-2d9dd2e7caf6"
+					headertext="TestCase"
+					displayName="TestCase"
+					iteration="1"
+					activity-exectype="dataiteration"
+					conditionstate="none">
+					<datarow>
+						<field
+							name="Name">
+							Shreyata
+						</field>
+						<field
+							name="WelcomeMsg">
+							Welcome, Shreyata!
+						</field>
+					</datarow>
+					<activity
+						result="Success"
+						duration="3.83s"
+						durationms="3826"
+						type="setup-container"
+						rid="7b3f4854a81aec9"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="1"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0">
+						<activity
+							result="Success"
+							duration="3.78s"
+							durationms="3784"
+							type="test-module"
+							rid="1805c286dab939b3"
+							totalerrorcount="0"
+							totalwarningcount="0"
+							totalsuccesstestcasecount="0"
+							totalfailedtestcasecount="0"
+							totalblockedtestcasecount="0"
+							childsuccesscount="0"
+							childfailedcount="0"
+							childblockedcount="0"
+							totalsuccesscount="0"
+							totalfailedcount="0"
+							totalblockedcount="0"
+							totalmaintenancemodecount="0"
+							modulename="StartAUT"
+							displayName="StartAUT"
+							moduleid="8acf1d37-011e-49af-9546-de861d114853"
+							moduletype="Recording"
+							iteration="1"
+							activity-exectype="execute"
+							testentry-activity-type="testmodule">
+							<varbindings>
+							</varbindings>
+							<item
+								timeRelativeToTestSuiteStartTime="00:04.004"
+								timeRelativeToTestModuleStartTime="00:00.054"
+								timeWallClock="17:01:18"
+								time="00:04.004"
+								level="Info"
+								category="Application">
+								<message>
+									Run application 'D:\Work\Freelance\Trainings\Renorex\RxDemoApp\RxDemoApp.exe' with arguments '' in normal mode.
+								</message>
+								<metainfo
+									itemindex="0"
+									codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\StartAUT.cs"
+									codeline="82"
+									loglvl="Info">
+								</metainfo>
+							</item>
+						</activity>
+					</activity>
+					<activity
+						result="Failed"
+						duration="1.7m"
+						durationms="99627"
+						type="test-module"
+						rid="8bf0680d3fbe850"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Recording1"
+						displayName="Recording1"
+						moduleid="45c8e318-9d92-42a9-8662-7eed5094441e"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Thread was being aborted.
+						</errormessage>
+						<varbindings>
+							<varbinding
+								name="name"
+								value="Shreyata">
+							</varbinding>
+							<varbinding
+								name="msg"
+								value="Welcome, Shreyata!">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.762"
+							timeRelativeToTestModuleStartTime="00:00.012"
+							timeWallClock="17:01:22"
+							time="00:07.762"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$name = 'Shreyata', $msg = 'Welcome, Shreyata!'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:07.851"
+							timeRelativeToTestModuleStartTime="00:00.101"
+							timeWallClock="17:01:22"
+							time="00:07.851"
+							level="Info"
+							category="Mouse">
+							<message>
+								Mouse Left Click item 'ApplicationUnderTest.TxBoxName' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='RxDemoApp']//text[@accessiblename='Enter your name']"
+								itempath=".//text[@accessiblename='Enter your name']"
+								fullname="TestAppRepository.ApplicationUnderTest.TxBoxName"
+								id="c9e1b16b52b64afba7085938fdc40fc1"
+								timeout="60000"
+								codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.cs"
+								codeline="108"
+								itemindex="0"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:15.229"
+							timeRelativeToTestModuleStartTime="00:07.479"
+							timeWallClock="17:01:30"
+							time="00:15.229"
+							level="Info"
+							category="Keyboard"
+							errimg="images_TestApp__c53556a9\TestApp__c53556a9_41733690_trace.jpg"
+							errthumb="images_TestApp__c53556a9\TestApp__c53556a9_41733690_trace_thumb.jpg">
+							<message>
+								Key sequence from variable '$name' with focus on 'ApplicationUnderTest.TxBoxName'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='RxDemoApp']//text[@accessiblename='Enter your name']"
+								itempath=".//text[@accessiblename='Enter your name']"
+								fullname="TestAppRepository.ApplicationUnderTest.TxBoxName"
+								id="c9e1b16b52b64afba7085938fdc40fc1"
+								timeout="60000"
+								codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.cs"
+								codeline="112"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:17.661"
+							timeRelativeToTestModuleStartTime="00:09.911"
+							timeWallClock="17:01:32"
+							time="00:17.661"
+							level="Info"
+							category="Mouse"
+							errimg="images_TestApp__c53556a9\TestApp__c53556a9_a0c275da_trace.jpg"
+							errthumb="images_TestApp__c53556a9\TestApp__c53556a9_a0c275da_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'ApplicationUnderTest.BtnSubmitUserName' at Center.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+								itempath="?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+								fullname="TestAppRepository.ApplicationUnderTest.BtnSubmitUserName"
+								id="cbffc97aa9e147a3b0cbbc0d5562abab"
+								timeout="60000"
+								codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.cs"
+								codeline="116"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="01:46.970"
+							timeRelativeToTestModuleStartTime="01:39.220"
+							timeWallClock="17:03:01"
+							time="01:46.970"
+							level="Error"
+							category="Module"
+							errimg="images_TestApp__c53556a9\TestApp__c53556a9_bb8e1d1c_trace.jpg"
+							errthumb="images_TestApp__c53556a9\TestApp__c53556a9_bb8e1d1c_trace_thumb.jpg">
+							<message>
+								Thread was being aborted.
+							</message>
+							<metainfo
+								stacktrace="   at System.Threading.Thread.SleepInternal(Int32 millisecondsTimeout)
+   at System.Threading.Thread.Sleep(Int32 millisecondsTimeout)
+   at Ranorex.Libs.Threading.ThreadOps.TracedSleep(Int32 millisecondsTimeout)
+   at Ranorex.Delay.Milliseconds(Int32 milliseconds, Boolean scaleBySpeedFactor)
+   at Ranorex.Delay.Milliseconds(Int32 milliseconds)
+   at TestApp.Recording1.Ranorex.Core.Testing.ITestModule.Run() in D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.cs:line 118
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+								codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.cs"
+								codeline="118"
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+					<activity
+						result="Failed"
+						duration="100ms"
+						durationms="100"
+						type="test-module"
+						rid="613028647172ae1"
+						totalerrorcount="1"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="Recording1"
+						displayName="Recording1"
+						moduleid="45c8e318-9d92-42a9-8662-7eed5094441e"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="runiteration"
+						testentry-activity-type="testmodule">
+						<errormessage>
+							Thread was being aborted.
+						</errormessage>
+						<item
+							timeRelativeToTestSuiteStartTime="01:47.402"
+							timeRelativeToTestModuleStartTime="00:00.016"
+							timeWallClock="17:03:02"
+							time="01:47.402"
+							level="Error"
+							category="Module">
+							<message>
+								Thread was being aborted.
+							</message>
+							<metainfo
+								stacktrace="   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)
+   at Ranorex.Core.Testing.TestModuleLeaf.RunWithRepeats(DataContext parentDataContext, ErrorBehavior errorBehavior)
+   at Ranorex.Core.Testing.TestModuleLeaf.Run(DataContext parentDataContext, Boolean childSkip)"
+								loglvl="Error">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+		<item
+			timeRelativeToTestSuiteStartTime="01:47.623"
+			timeRelativeToTestModuleStartTime="01:47.624"
+			timeWallClock="17:03:02"
+			time="01:47.623"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Testing.TestCaseNode.Run(DataContext parentDataContext, Boolean childSkip)&#13;&#10;   at Ranorex.Core.Testing.TestSuite.Run(String runConfigName, String runLabel, Dictionary`2 parameters)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.TryRunTestSuite(RunParams rp, TestSuite testSuite)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.&lt;>c__DisplayClass13_1.&lt;RunInternal>b__5()&#13;&#10;   at Ranorex.Common.Types.OptCombinators.UnwrapOrElse[T](Opt`1 self, Func`1 generator)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="2bfbf720d1f9511"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Shreyata"
+		rxversion="8.3.1.0"
+		host="SHREYATA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="13-Dec-18 5:25:16 PM"
+		timestampiso="2018-12-13T11:55:16"
+		endtime="13-Dec-18 5:25:33 PM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.612"
+			timeRelativeToTestModuleStartTime="00:09.615"
+			timeWallClock="17:25:25"
+			time="00:09.612"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>name, msg
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.662"
+			timeRelativeToTestModuleStartTime="00:09.665"
+			timeWallClock="17:25:25"
+			time="00:09.662"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.TxBoxName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']//text[@accessiblename='Enter your name']"
+				itempath=".//text[@accessiblename='Enter your name']"
+				fullname="TestAppRepository.ApplicationUnderTest.TxBoxName"
+				id="c9e1b16b52b64afba7085938fdc40fc1"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.746"
+			timeRelativeToTestModuleStartTime="00:12.749"
+			timeWallClock="17:25:28"
+			time="00:12.746"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence from variable '$name' with focus on 'ApplicationUnderTest.TxBoxName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']//text[@accessiblename='Enter your name']"
+				itempath=".//text[@accessiblename='Enter your name']"
+				fullname="TestAppRepository.ApplicationUnderTest.TxBoxName"
+				id="c9e1b16b52b64afba7085938fdc40fc1"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.cs"
+				codeline="112"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.254"
+			timeRelativeToTestModuleStartTime="00:14.257"
+			timeWallClock="17:25:30"
+			time="00:14.254"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.BtnSubmitUserName' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				fullname="TestAppRepository.ApplicationUnderTest.BtnSubmitUserName"
+				id="cbffc97aa9e147a3b0cbbc0d5562abab"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.cs"
+				codeline="116"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.563"
+			timeRelativeToTestModuleStartTime="00:15.566"
+			timeWallClock="17:25:31"
+			time="00:15.563"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 1s to exist. Associated repository item: 'ApplicationUnderTest.WelcomeMsg'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']//text[@controlname='lblWelcomeMessage' and @controltext~'^Welcome,.*!$']"
+				itempath=".//text[@controlname='lblWelcomeMessage' and @controltext~'^Welcome,.*!$']"
+				fullname="TestAppRepository.ApplicationUnderTest.WelcomeMsg"
+				id="94e9a3ea26ff48738e263349fc60dc6b"
+				timeout="1000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.cs"
+				codeline="123"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.384"
+			timeRelativeToTestModuleStartTime="00:16.387"
+			timeWallClock="17:25:32"
+			time="00:16.384"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeRegex (Text~'Welcome Msg') on item 'textInfo'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']//text[@controlname='lblWelcomeMessage' and @controltext~'^Welcome,.*!$']"
+				itempath=".//text[@controlname='lblWelcomeMessage' and @controltext~'^Welcome,.*!$']"
+				fullname="TestAppRepository.ApplicationUnderTest.WelcomeMsg"
+				id="94e9a3ea26ff48738e263349fc60dc6b"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.UserCode.cs"
+				codeline="38"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.251"
+			timeRelativeToTestModuleStartTime="00:17.254"
+			timeWallClock="17:25:33"
+			time="00:17.251"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'TestAppRepository.ApplicationUnderTest.WelcomeMsg' does match the specified RegEx.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']//text[@controlname='lblWelcomeMessage' and @controltext~'^Welcome,.*!$']"
+				itempath=".//text[@controlname='lblWelcomeMessage' and @controltext~'^Welcome,.*!$']"
+				fullname="TestAppRepository.ApplicationUnderTest.WelcomeMsg"
+				id="94e9a3ea26ff48738e263349fc60dc6b"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording1.UserCode.cs"
+				codeline="39"
+				loglvl="Success">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="069a6c6e-5f54-40c5-aab7-bd081a1ce3fd"
+mode="Global"
+rxversion="8.3">
+	<name>
+		TabNavigation
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="TabNavigation"
+	namespace="DesktopTest.TestDatabaseTab">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7c4d312e-be6b-458e-b625-66d6ee0e2c6c"
+		sx="-31864"
+		sy="-31906"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ac8dddaf-df36-4d78-b51c-a379cc31651b"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="3"
+				prefcap="tabpage"
+				rect="-31905,-31916,83,20"
+				role="tabpage"
+				snapElem=""
+				valid="True"
+				visible="False">
+					<attribute
+					name="index"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Test database
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Switch
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Test database
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PageTab
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Selected, Invisible, Offscreen, Focusable, Selectable
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='RxDemoApp']/?/?/tabpage[@accessiblename='Test database']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="49f804d2-4bf0-45c4-bdc5-3e0d5cb9764f"
+	name="DesktopTestRepository"
+	relativepath="..\DesktopTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="DesktopTestRepository"
+		namespace="DesktopTest">
+		</codegen>
+		<rootfolder
+		id="9da6b11e-c49b-4543-81ff-4bc495b30fb1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		TabNavigation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

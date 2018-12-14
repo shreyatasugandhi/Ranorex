@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="29e520b692cf834"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Shreyata"
+		rxversion="8.3.1.0"
+		host="SHREYATA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="13-Dec-18 12:02:53 PM"
+		timestampiso="2018-12-13T06:32:53"
+		endtime="13-Dec-18 12:03:09 PM"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errormessage>
+			Image not found in element {CheckBox:chkShowImage}.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.838"
+			timeRelativeToTestModuleStartTime="00:11.839"
+			timeWallClock="12:03:05"
+			time="00:11.838"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_b7f80f41_f2367a98_trace.jpg"
+			errthumb=".\Recordin_b7f80f41_f2367a98_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ImageBasedAutomation' at 14;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@accessiblename='Image-based automation']"
+				itempath="?/?/tabpage[@accessiblename='Image-based automation']"
+				fullname="RxAppRepository.ApplicationUnderTest.ImageBasedAutomation"
+				id="cb1d613a8e274e9c9951a1f00c80fafd"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.719"
+			timeRelativeToTestModuleStartTime="00:14.720"
+			timeWallClock="12:03:08"
+			time="00:14.719"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_b7f80f41_2320be92_trace.jpg"
+			errthumb=".\Recordin_b7f80f41_2320be92_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ChkShowImage' at 4;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabImageBased']/checkbox[@controlname='chkShowImage']"
+				itempath="?/?/tabpage[@controlname='RxTabImageBased']/checkbox[@controlname='chkShowImage']"
+				fullname="RxAppRepository.ApplicationUnderTest.ChkShowImage"
+				id="adf5d1cc72a54cfd834eb43f35dcdaf6"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.539"
+			timeRelativeToTestModuleStartTime="00:15.540"
+			timeWallClock="12:03:09"
+			time="00:15.539"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_b7f80f41_d031472a_trace.jpg"
+			errthumb=".\Recordin_b7f80f41_d031472a_trace_thumb.jpg">
+			<message>
+				Image not found in element {CheckBox:chkShowImage}.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Imaging.FindSingle(Element element, Bitmap feature, FindOptions options)
+   at Ranorex.Location.GetElementLocation(Element element, Boolean relative)
+   at Ranorex.Adapter.IsClickOutOfBounds(Location location)
+   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at RxApp.Recording2.Ranorex.Core.Testing.ITestModule.Run() in D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording2.cs:line 87
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\RxApp\RxApp\Recording2.cs"
+				codeline="87"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

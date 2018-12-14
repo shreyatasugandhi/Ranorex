@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6cdeca12-49a7-4c85-93fe-2c80143ec1a3"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		OpenBrowser
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="WebAppTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://newtours.demoaut.com/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="2285f2ec-ed07-4374-a79a-43d3b7cb9ea2"
+	name="WebAppTestRepository"
+	relativepath="WebAppTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="WebAppTestRepository"
+		namespace="WebAppTest">
+		</codegen>
+		<rootfolder
+		id="47e7d8aa-0a18-472d-9bc4-2ef259037955"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

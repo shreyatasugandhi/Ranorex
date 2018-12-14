@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "FunctionTest",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "SmokeTest",
+    "RunConfig": "Default"
+  }
+]

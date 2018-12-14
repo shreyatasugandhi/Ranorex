@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ab80c1fe-014f-44b9-af66-598a7ed90a8d"
+mode="Global"
+rxversion="8.3">
+	<name>
+		FAil
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="FAil"
+	namespace="RxApp">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Failure;120"
+		searchpropertyid="1c74e00b-6315-462b-8664-78fcc23ddbeb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="786d09a4-e5ad-4e07-abdf-8a2241b3f6f0"
+	name="RxAppRepository"
+	relativepath="RxAppRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="RxAppRepository"
+		namespace="RxApp">
+		</codegen>
+		<rootfolder
+		id="789abdd5-3ab1-4f91-9bac-57b23f20fce6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		FAil.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

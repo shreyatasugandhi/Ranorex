@@ -1,0 +1,12 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "RemoteExecutionTest",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "JiraTest",
+    "RunConfig": "Default"
+  }
+]

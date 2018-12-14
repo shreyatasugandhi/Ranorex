@@ -1,0 +1,10 @@
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\bin\Debug\WebAppTest.rxtmg
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\bin\Debug\WebAppTest.rxtst
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\bin\Debug\WebAppTest.exe.config
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\bin\Debug\WebAppTest.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\bin\Debug\WebAppTest.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\obj\x86\Debug\WebAppTest.csprojResolveAssemblyReference.cache
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\obj\x86\Debug\WebAppTest.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\obj\x86\Debug\WebAppTest.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\WebAppTest\WebAppTest\bin\Debug\DataSet.csv

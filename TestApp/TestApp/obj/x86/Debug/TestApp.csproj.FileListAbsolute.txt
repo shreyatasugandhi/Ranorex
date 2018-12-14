@@ -1,0 +1,10 @@
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\bin\Debug\TestApp.rxtmg
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\bin\Debug\TestApp.rxtst
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\bin\Debug\TestApp.exe.config
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\bin\Debug\TestApp.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\bin\Debug\TestApp.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\obj\x86\Debug\TestApp.csprojResolveAssemblyReference.cache
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\obj\x86\Debug\TestApp.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\obj\x86\Debug\TestApp.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\bin\Debug\RepositoryImages\TestAppRepositorycc9adede.rximgres

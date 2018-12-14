@@ -1,0 +1,14 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{F1835714-EF65-4654-B445-AB8B99299C0D}</string>
+      <string>3d480fcc-335a-4cfc-90db-334baecbb450</string>
+      <string>19d59299-f272-4efe-89ba-46299d27d8ca</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution WebAppTest[WebAppTest[]]]&#xD;&#xA;Solution WebAppTest\WebAppTest\WebAppTest.rxtst&#xD;&#xA;Solution WebAppTest\WebAppTest\BookAFlight" />
+  <StartupProject value="{F1835714-EF65-4654-B445-AB8B99299C0D}" />
+</Properties>

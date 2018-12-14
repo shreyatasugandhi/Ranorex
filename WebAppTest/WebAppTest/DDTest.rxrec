@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3fbe0313-eb10-475b-a1bd-09fd110ff15b"
+mode="Global"
+rxversion="8.3">
+	<name>
+		DDTest
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DDTest"
+	namespace="WebAppTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="2285f2ec-ed07-4374-a79a-43d3b7cb9ea2"
+	name="WebAppTestRepository"
+	relativepath="WebAppTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="WebAppTestRepository"
+		namespace="WebAppTest">
+		</codegen>
+		<rootfolder
+		id="47e7d8aa-0a18-472d-9bc4-2ef259037955"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DDTest.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,323 @@
+﻿<repository
+id="49f804d2-4bf0-45c4-bdc5-3e0d5cb9764f"
+name="DesktopTestRepository"
+rxversion="8.3">
+	<codegen
+	classname="DesktopTestRepository"
+	namespace="DesktopTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="9da6b11e-c49b-4543-81ff-4bc495b30fb1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6816f6c5-9943-43e2-a73f-8b90d0c9dc47"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="ce6dfbd6-9b9e-43ba-9d3c-3fd4d42faf2e"
+			isrooted="True"
+			name="RxTabIntroduction"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="4a8cc081-8b32-4ec2-98f0-17c5fac45285"
+				name="EnterYourName"
+				refimgid="4b1ef23a-0ec6-42a0-a1c7-af0fc83ed673"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/text[@controlname='txtUserName']/text[@accessiblename='Enter your name']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/?/?/text[@accessiblename='Enter your name']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="7be6689c-098e-4b64-a0e2-692658c4a2b4"
+				name="BtnSubmit"
+				refimgid="39aecfce-ca18-4866-bd7e-e17009539585"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/button[@controlname='btnSubmitUserName']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="21201aa8-dd01-4009-a8ab-a0b7cd5de279"
+				name="LblWelcomeMessage"
+				refimgid="296492ea-287a-4a5b-a963-70a1f23e5972"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']
+				</item>
+				<basepath>
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']
+				</basepath>
+			</folder>
+			<folder
+			addcaps="tabpage,control,nativewindow"
+			capname="tabpage"
+			id="2e5b8a5a-0de2-4111-ad88-3681262aea43"
+			isrooted="True"
+			name="RxTabStandard"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="66145dde-6794-4348-9944-655dea20a303"
+				name="Open"
+				refimgid="b0293d9c-4fbc-4bca-bede-b219d90c5055"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/combobox/button[@accessiblename='Open']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/?/?/button[@accessiblename='Open']
+				</item>
+				<item
+				addcaps="radiobutton,control,nativewindow"
+				capname="radiobutton"
+				id="cf8991fe-cd50-4730-a746-6167c1cc618a"
+				name="RdbFemale"
+				refimgid="6e14d5e3-988f-46eb-b4ce-ffd73eae06db"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/container[@controlname='grpGender']/radiobutton[@controlname='rdbFemale']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controlname='rdbFemale']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="80930eaa-f54d-4fb7-a74d-3252d07d36f2"
+				name="FirstName"
+				refimgid="d9de1cc3-c908-45c2-a1da-f9ceaf42093a"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/text[@controlname='txtFirstName']/text[@accessiblename='First name']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='First name']
+				</item>
+				<item
+				addcaps="text,accessible"
+				capname="text"
+				id="cc1813e1-1a96-4444-b320-4a21ad4411eb"
+				name="LastName"
+				refimgid="d0ff4f51-e845-4e66-8893-7aa22b15e2e0"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/text[@controlname='txtLastName']/text[@accessiblename='Last name']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@accessiblename='Last name']
+				</item>
+				<item
+				addcaps="text,nativewindow"
+				capname="text"
+				id="5e026e84-69d3-4052-a906-a1c7d13631d9"
+				name="Department"
+				refimgid="a99dcf55-d47e-407c-9f85-acc9c3a0eb63"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/combobox/text[@controlid='1001']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@controlid='1001']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="da809012-c41a-42e2-b79d-d0f7700b6999"
+				name="AgeTextBox"
+				refimgid="f42a4362-1a73-4a73-b94d-6437fd602730"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/container[@controlname='txtAge']/text[@controlname='upDownEdit']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@controlname='upDownEdit']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="44934a7c-d2fb-449c-85ab-d94bf78794da"
+				name="BtnAddPerson"
+				refimgid="7b33090e-fc8c-4ab9-bce9-7c83c8286fe2"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']
+				</item>
+				<item
+				addcaps="button,control,nativewindow"
+				capname="button"
+				id="c9317def-7310-4f69-8700-742eba9d1eec"
+				name="BtnDeletePerson"
+				refimgid="2997cd50-1f60-4954-94ee-6a523ec89201"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/button[@controlname='btnDeletePerson']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnDeletePerson']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="388942b6-1262-45d7-99c4-2c429d6daa29"
+				name="Down"
+				refimgid="81802941-1f71-4fa9-865e-4180b11d04c9"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/container[@controlname='txtAge']/container/button[@accessiblename='Down']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/container[@controlname='txtAge']/?/?/button[@accessiblename='Down']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="de4296f3-7eaa-4aba-bb13-ba8dfea8fe69"
+				name="ButtonUp"
+				refimgid="ce1d5ba5-46bf-494a-a33c-d7f348e0bbe8"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage[@controlname='RxTabStandard']/container[@controlname='txtAge']/container/button[@accessiblename='Up']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/container[@controlname='txtAge']/?/?/button[@accessiblename='Up']
+				</item>
+				<item
+				addcaps="listitem,accessible"
+				capname="listitem"
+				id="866557e3-0215-4867-9a5d-4e8caa726316"
+				name="ShreyataSugandhiFemale20Testing"
+				refimgid="82074a2c-35f5-42aa-89cf-420797e140a1"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/list[@controlname='lstPersonList']/list[@accessiblename='1']/listitem[@accessiblename='Shreyata Sugandhi (female, 20) Testing']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/list[@controlname='lstPersonList']/?/?/listitem[@accessiblename~'^Shreyata\ Sugandhi\ \(female']
+				</item>
+				<item
+				addcaps="text,control,nativewindow"
+				capname="text"
+				id="b47d2c50-950e-4020-b9e7-5771f0292869"
+				name="LblNumberOfPersonsNumber"
+				refimgid="5f2f12ee-2a2e-4b99-ab5d-3e77d102700e"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/text[@controlname='lblNumberOfPersonsNumber']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='lblNumberOfPersonsNumber']
+				</item>
+				<item
+				addcaps="list,accessible"
+				capname="list"
+				id="06b943a6-1f50-46d9-a270-627b1c8aa6ce"
+				name="List0"
+				refimgid="0fa12c47-b58d-464f-9567-13121e1b3ff8"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/list[@controlname='lstPersonList']/list[@accessiblename='0']"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/?/?/list[@accessiblename='0']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="c3d8231f-9224-4395-95d6-c6e32271ab1f"
+				name="Close"
+				refimgid="e7487103-9750-4a29-908d-4fd8e62bf015"
+				refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabStandard']/combobox[@controlname='cmbDepartment']/button"
+				searchtimeout="30000ms">
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']/?/?/button
+				</item>
+				<basepath>
+					/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabStandard']
+				</basepath>
+			</folder>
+			<item
+			addcaps="tabpage,accessible"
+			capname="tabpage"
+			id="ac8dddaf-df36-4d78-b51c-a379cc31651b"
+			name="TestDatabaseTab"
+			refimgid="21fe41dd-ff39-430f-a2ec-b7cdb3dec477"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@accessiblename='Test database']"
+			searchtimeout="30000ms">
+				/form[@processname='RxDemoApp']/?/?/tabpage[@accessiblename='Test database']
+			</item>
+			<basepath>
+				/form[@processname='RxDemoApp']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAB9SURBVDhPY0AGwcHBi4D4NxD/x4NB8r+DgoJa
+odogACj4BqQAyiUdwDQ/YBfa+oBN6CA+DNaADmAGAAlGIGbCh8Ea0AHIACD+B8RficFQbQgAFAQa
+TjwABuI3KBMCSDEgICBAeNSAUQOwGgACIEOAEt8JYaC6H0AaaAADAwC5s5VutWbaWgAAAABJRU5E
+rkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="list,nativewindow"
+		capname="list"
+		id="2eef8bd8-20f8-403a-89fa-9bbcecde2cc3"
+		isrooted="True"
+		name="List1000"
+		refpath="/list[@controlid='1000']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,nativeitem,checkable"
+			capname="listitem"
+			id="ea8e822c-1d46-49b3-9e2a-10084a0deaf1"
+			name="Testing"
+			refimgid="810e1fe3-c6c7-4de2-b9fc-80af08840257"
+			refpath="/list[@controlid='1000']/listitem[@text='Testing']"
+			searchtimeout="30000ms">
+				/list[@controlid='1000']/listitem[@text='Testing']
+			</item>
+			<basepath>
+				/list[@controlid='1000']
+			</basepath>
+			<icon>
+				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
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

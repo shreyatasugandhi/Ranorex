@@ -1,0 +1,16 @@
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\RemoteExecutionTest.rxtmg
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\RemoteExecutionTest.rxtst
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\RemoteExecutionTest.exe.config
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\RemoteExecutionTest.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\RemoteExecutionTest.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\Ranorex.Core.Resolver.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\obj\x86\Debug\RemoteExecutionTest.csprojResolveAssemblyReference.cache
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\obj\x86\Debug\RemoteExecutionTest.exe
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\obj\x86\Debug\RemoteExecutionTest.pdb
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\JiraTest.rxtst
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\RemoteExecutionTest.rxsqc
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\Atlassian.Jira.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\Newtonsoft.Json.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\RestSharp.dll
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\Newtonsoft.Json.xml
+D:\Work\Freelance\Trainings\Renorex\Demos\RemoteExecutionTest\RemoteExecutionTest\bin\Debug\RestSharp.xml

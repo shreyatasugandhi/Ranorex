@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="26e735ac0ccf65d7"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Shreyata"
+		rxversion="8.3.1.0"
+		host="SHREYATA"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="13-Dec-18 6:49:20 PM"
+		timestampiso="2018-12-13T13:19:20"
+		endtime="13-Dec-18 6:49:33 PM"
+		timeoutfactor="1"
+		module="Recording2">
+		<detail>
+			Recording2
+		</detail>
+		<errormessage>
+			Image not found in element {TabPage:Image-based automation}.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.047"
+			timeRelativeToTestModuleStartTime="00:08.049"
+			timeWallClock="18:49:28"
+			time="00:08.047"
+			level="Info"
+			category="Mouse"
+			errimg=".\Recordin_cc373ec5_0708934e_trace.jpg"
+			errthumb=".\Recordin_cc373ec5_0708934e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ImageBasedAutomation' at 30;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@accessiblename='Image-based automation']"
+				itempath="?/?/tabpage[@accessiblename='Image-based automation']"
+				fullname="TestAppRepository.ApplicationUnderTest.ImageBasedAutomation"
+				id="fb1b7a8149a346489f7edcbf033e2883"
+				timeout="60000"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.857"
+			timeRelativeToTestModuleStartTime="00:12.859"
+			timeWallClock="18:49:33"
+			time="00:12.857"
+			level="Error"
+			category="Module"
+			errimg=".\Recordin_cc373ec5_ee2a6768_trace.jpg"
+			errthumb=".\Recordin_cc373ec5_ee2a6768_trace_thumb.jpg">
+			<message>
+				Image not found in element {TabPage:Image-based automation}.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Imaging.FindSingle(Element element, Bitmap feature, FindOptions options)
+   at Ranorex.Location.GetElementLocation(Element element, Boolean relative)
+   at Ranorex.Adapter.IsClickOutOfBounds(Location location)
+   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at TestApp.Recording2.Ranorex.Core.Testing.ITestModule.Run() in D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording2.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="D:\Work\Freelance\Trainings\Renorex\Demos\TestApp\TestApp\Recording2.cs"
+				codeline="83"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

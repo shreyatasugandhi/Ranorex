@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="05028175-2511-41f9-9eff-e96013d6d51e"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="RxApp">
+	</codegen>
+	<variables>
+		<var
+		id="9206236b-0f0c-42dd-a8c9-e6b55e91f695"
+		name="name">
+			SS
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="Recording1"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Validate_LblWelcomeMessage1"
+		namespace="RxApp"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="32e91163-5b81-4985-800e-8332a9b73ec0">
+				<argument
+				argname="textInfo"
+				id="39e34538-7539-4157-bc43-e50b1352741b">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="ad25e72b-b75b-4517-8156-41cfc563c874"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="786d09a4-e5ad-4e07-abdf-8a2241b3f6f0"
+	name="RxAppRepository"
+	relativepath="RxAppRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="RxAppRepository"
+		namespace="RxApp">
+		</codegen>
+		<rootfolder
+		id="789abdd5-3ab1-4f91-9bac-57b23f20fce6"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
